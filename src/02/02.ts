@@ -1,4 +1,4 @@
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -19,7 +19,7 @@ type Address = {
     streetTitle: string
 }
 
-const man: StudentType = {
+export const man: StudentType = {
     id: 1,
     name: 'Alex',
     age: 24,

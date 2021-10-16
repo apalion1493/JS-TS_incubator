@@ -11,7 +11,7 @@ beforeEach(() => {
   c = 3;
 })
 
-test('sum should be correct', () => {
+test.skip('sum should be correct', () => {
     //action
     let result1 = sum(a, b);
     let result2 = sum(a, c);
@@ -23,7 +23,7 @@ test('sum should be correct', () => {
     expect(result3).toBe(5)
 })
 
-test('multiply should be correct', () => {
+test.skip('multiply should be correct', () => {
 
     //action
     let result1 = mult(a, b);
